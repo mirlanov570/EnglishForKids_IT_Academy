@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">English for Kids</string>
+    <string-array name="animal_names">
+        <item>Tiger</item>
+        <item>Bear</item>
+        <item>Pig</item>
+        <item>Monkey</item>
+        <item>Elephant</item>
+        <item>Huppopotamus</item>
+        <item>Frog</item>
+        <item>Crocodile</item>
+        <item>Zebra</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Grey</item>
+    </string-array>
+    <string-array name="clothing_names">
+        <item>Shirt</item>
+        <item>Pants</item>
+        <item>Jacket</item>
+        <item>Hat</item>
+        <item>Shoes</item>
+        <item>Dress</item>
+        <item>Scarf</item>
+        <item>Gloves</item>
+        <item>Socks</item>
+    </string-array>
+
+</resources>

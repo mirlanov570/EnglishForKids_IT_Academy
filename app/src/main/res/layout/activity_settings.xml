@@ -1,0 +1,137 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите время занятия"
+        android:gravity="center"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/timepicker_background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите дни недели"
+        android:gravity="center"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:padding="8dp"
+        android:background="@drawable/grid_background">
+
+        <CheckBox
+            android:id="@+id/checkMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пн"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Ср"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пт"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вт"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Чт"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сб"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вс"
+            android:textSize="22sp"
+            android:textColor="@color/primaryTextColor"
+            android:buttonTint="@color/checkboxColor"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_columnSpan="3"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="20sp"
+        android:backgroundTint="@color/buttonBackgroundColor"
+        android:elevation="4dp"
+        android:padding="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/letterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/let_a"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/prevLetterButton"
+            android:layout_width="58dp"
+            android:layout_height="64dp"
+            android:src="@drawable/previous"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/nextLetterButton"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:src="@drawable/next"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/markLearnedButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/save"/>
+</LinearLayout>

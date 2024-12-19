@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <!-- Вопрос -->
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <!-- Изображение -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Кнопки вариантов -->
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 1"
+        android:backgroundTint="?android:attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 2"
+        android:backgroundTint="?android:attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 3"
+        android:backgroundTint="?android:attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 4"
+        android:backgroundTint="?android:attr/colorButtonNormal" />
+
+
+
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать"
+        android:backgroundTint="#00FF9C"
+        android:textSize="20sp"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/correctCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Правильные: 0"
+            android:textSize="21sp"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/incorrectCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Неправильные: 0"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

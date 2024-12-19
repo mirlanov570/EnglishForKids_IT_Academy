@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#03A9F4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="orange">#F26B0F</color>
+    <color name="backgroundColor">#FFFDE7</color> <!-- Светло-желтый фон -->
+    <color name="primaryTextColor">#0288D1</color> <!-- Голубой текст -->
+    <color name="buttonBackgroundColor">#FFB300</color> <!-- Ярко-оранжевый фон кнопок -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Белый текст на кнопках -->
+    <color name="checkboxColor">#4CAF50</color> <!-- Зелёный цвет для чекбоксов -->
+
+    <!-- Дополнительные цвета -->
+    <color name="gridBackgroundColor">#FFF59D</color> <!-- Желтый фон для сетки -->
+    <color name="timePickerBackgroundColor">#E1F5FE</color> <!-- Светло-голубой для TimePicker -->
+</resources>
